@@ -1,0 +1,106 @@
+{"dbs": {
+    "plot_0": {
+    "isHidden": false,
+    "location": "BelowBar",
+    "plottype": "shape_diamond",
+    "size": "small",
+    "text": "AL",
+    "title": "DBS Al Sinyal Gösterge Ayarları "
+    },
+    "plot_1": {
+    "isHidden": false,
+    "location": "AboveBar",
+    "plottype": "shape_diamond",
+    "size": "small",
+    "text": "SAT",
+    "title": "DBS Sat-Stop Gösterge Ayarları "
+    },
+    "plot_10": {
+    "histogramBase": 0,
+    "isHidden": false,
+    "joinPoints": false,
+    "title": "  》Magicma Haftalık -2 &gt;&gt; "
+    },
+    "plot_11": {
+    "histogramBase": 0,
+    "isHidden": false,
+    "joinPoints": false,
+    "title": "  》Magicma Günlük Üst Çizgi &gt;&gt;"
+    },
+    "plot_12": {
+    "histogramBase": 0,
+    "isHidden": false,
+    "joinPoints": false,
+    "title": "  》Magicma Günlük Alt Çizgi &gt;&gt;"
+    },
+    "plot_13": {
+    "isHidden": false,
+    "location": "AboveBar",
+    "size": "tiny",
+    "title": "  》Magicma Günlük SAT Gösterge ?"
+    },
+    "plot_14": {
+    "isHidden": false,
+    "location": "BelowBar",
+    "size": "tiny",
+    "title": "  》Magicma Günlük AL Gösterge ?"
+    },
+    "plot_15": {
+    "text": "Magicma gol olur?",
+    "title": "Magicma Bull Alarm"
+    },
+    "plot_16": {
+    "text": "Magicma bu da mı gol değil?",
+    "title": "Magicma Bear Alarm"
+    },
+    "plot_17": {
+    "text": "Magicma Dikkat ?",
+    "title": "Magicma her dokunuş"
+    },
+    "plot_18": {
+    "text": "Satış Yeri olabilir mi?-Trend dönüyor olabilir mi?",
+    "title": "Magicma Haftalık"
+    },
+    "plot_19": {
+    "isHidden": false,
+    "location": "BelowBar",
+    "plottype": "shape_triangle_up",
+    "size": "tiny",
+    "text": "Golden Cross",
+    "title": "Golden Cross"
+    },
+    "plot_2": {
+    "histogramBase": 0,
+    "isHidden": false,
+    "joinPoints": false,
+    "title": "DBS Destek Bölgesi_Alt Sınır "
+    },
+    "plot_20": {
+    "isHidden": false,
+    "location": "BelowBar",
+    "plottype": "shape_triangle_up",
+    "size": "tiny",
+    "text": "Silver Cross",
+    "title": "Silver Cross"
+    },
+    "plot_4": {
+    "histogramBase": 0,
+    "isHidden": false,
+    "joinPoints": false,
+    "title": "DBS Dinamik Destek-Direnç "
+    },
+    "plot_6": {
+    "histogramBase": 0,
+    "isHidden": false,
+    "joinPoints": false,
+    "title": ""
+    },
+    "plot_9": {
+    "histogramBase": 0,
+    "isHidden": false,
+    "joinPoints": false,
+    "title": "  》Magicma Haftalık -1 &gt;&gt; "
+    }
+
+}
+}
