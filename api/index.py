@@ -14,7 +14,7 @@ class handler(BaseHTTPRequestHandler):
 
         ipm.get(type="chart",
             syms=[
-                "BINANCE:BTCUSDT", "BINANCE:ETHUSD", "BINANCE:DOTUSD"
+                "BINANCE:BTCUSDT", "BINANCE:ETHUSDT", "BINANCE:DOTUSDT", "BINANCE:BNBUSDT", "BINANCE:CHZUSDT" 
             ],
             indicators=["dbs"],
             timeframe=240,
@@ -28,7 +28,8 @@ class handler(BaseHTTPRequestHandler):
             for indicator, calculation in indicators.items():
                 if(data.get(indicator)):
                     binded_result = bind_result(calculation[1:], data.get(indicator))
-                    response[key] = {indicator: binded_result}
+                    if(len(binded_result) > 0):
+                        response[key] = {indicator: binded_result}
 
         discord_client = Discord()
         discord_data = discord_client.prepare_data(response, 240)
