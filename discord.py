@@ -2,7 +2,7 @@ import requests #dependency
 
 class Discord():
     def __init__(self):
-        self._webhook_url = "https://discord.com/api/webhooks/824007368772681739/FeENyJ51FtX020i186CbimFNPvw82BdRfsUTaQGRZKIsUZVWGKSkrh1KblnkCLh3LM2T"
+        self._webhook_url = ""
     
     def send_to_discord(self, data):
         print(data)
